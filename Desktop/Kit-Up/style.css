@@ -1,0 +1,54 @@
+.ust-container{
+    display: flex;
+    background-color: #8633FF;
+    padding: 2rem;
+}
+ *{
+     margin: 0;
+     padding: 0;
+     color: blanchedalmond;
+ }
+
+ .logo{
+     font-size: 10;
+     font-family:Arial, Helvetica, sans-serif;
+     flex: 1;
+     color: black;
+ }
+.admin-ismi h4{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    font-size: 20px;
+} 
+
+
+.admin-photo img{
+    width:100% ;
+    max-width: 50px;
+}
+
+.admin-container{
+    display: flex;
+    align-items: center;
+}
+
+ul li  {
+    padding: 30px ;
+    background-color: rgb(209, 209, 209);
+}
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+ .container{
+     display: flex;
+ }
+ 
+ul li a:hover{
+    color: blanchedalmond;
+}
